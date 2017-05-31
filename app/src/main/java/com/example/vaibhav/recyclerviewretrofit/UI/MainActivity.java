@@ -1,10 +1,16 @@
-package com.example.vaibhav.recyclerviewretrofit;
+package com.example.vaibhav.recyclerviewretrofit.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+
+import com.example.vaibhav.recyclerviewretrofit.Adapter.DataAdapter;
+import com.example.vaibhav.recyclerviewretrofit.Model.AndroidVersion;
+import com.example.vaibhav.recyclerviewretrofit.Model.JSONResponse;
+import com.example.vaibhav.recyclerviewretrofit.R;
+import com.example.vaibhav.recyclerviewretrofit.Interface.RequestInterface;
 
 import java.util.ArrayList;
 import java.util.Arrays;

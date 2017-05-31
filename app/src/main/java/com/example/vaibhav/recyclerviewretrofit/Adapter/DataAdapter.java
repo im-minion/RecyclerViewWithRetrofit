@@ -1,4 +1,4 @@
-package com.example.vaibhav.recyclerviewretrofit;
+package com.example.vaibhav.recyclerviewretrofit.Adapter;
 
 /**
  * Created by vaibhav on 1/6/17.
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.vaibhav.recyclerviewretrofit.Model.AndroidVersion;
+import com.example.vaibhav.recyclerviewretrofit.R;
 
 import java.util.ArrayList;
 
@@ -27,7 +30,6 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(DataAdapter.ViewHolder viewHolder, int i) {
-
         viewHolder.tv_name.setText(android.get(i).getName());
         viewHolder.tv_version.setText(android.get(i).getVer());
         viewHolder.tv_api_level.setText(android.get(i).getApi());
@@ -43,11 +45,9 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
 
         public ViewHolder(View view) {
             super(view);
-
             tv_name = (TextView) view.findViewById(R.id.tv_name);
             tv_version = (TextView) view.findViewById(R.id.tv_version);
             tv_api_level = (TextView) view.findViewById(R.id.tv_api_level);
-
         }
     }
 

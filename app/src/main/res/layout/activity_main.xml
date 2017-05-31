@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.vaibhav.recyclerviewretrofit.MainActivity">
+    tools:context="com.example.vaibhav.recyclerviewretrofit.UI.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/card_recycler_view"
@@ -11,5 +11,5 @@
         android:layout_height="match_parent"
         android:scrollbars="vertical" />
 
-</LinearLayout><!--tools:context="com.example.vaibhav.recyclerviewretrofit.MainActivity">-->
+</LinearLayout><!--tools:context="com.example.vaibhav.recyclerviewretrofit.UI.MainActivity">-->
 

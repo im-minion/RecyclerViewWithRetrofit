@@ -1,4 +1,4 @@
-package com.example.vaibhav.recyclerviewretrofit;
+package com.example.vaibhav.recyclerviewretrofit.Model;
 
 /**
  * Created by vaibhav on 1/6/17.

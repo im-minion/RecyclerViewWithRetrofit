@@ -1,4 +1,6 @@
-package com.example.vaibhav.recyclerviewretrofit;
+package com.example.vaibhav.recyclerviewretrofit.Model;
+
+import com.example.vaibhav.recyclerviewretrofit.Model.AndroidVersion;
 
 /**
  * Created by vaibhav on 1/6/17.
